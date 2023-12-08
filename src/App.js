@@ -1,11 +1,16 @@
-import './App.css';
+import "./App.css";
+import * as React from "react";
+import Button from "@mui/material/Button";
 
+function ButtonUsage() {
+  return <Button variant="contained">Learn React</Button>;
+}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome Coder! You have successfully created a new application
         </p>
         <a
           className="App-link"
@@ -13,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <ButtonUsage />
         </a>
       </header>
     </div>
